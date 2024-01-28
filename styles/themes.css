@@ -6,15 +6,13 @@
 */
 
 :root.theme-light {
-  --main-font: "Inter", sans-serif;
-  --accent-font: "PressStart2P", sans-serif;
   --font-size: 18px;
   --text-weight-size: 400;
   --title-weight-size: 700;
   --bgcolor: #fff;
   --accent-color: #000;
-  --gradinent: repeating-linear-gradient(to right, #d3d3d3 2px, transparent 4px),
-    repeating-linear-gradient(to bottom, #d3d3d3 2px, transparent 4px),
+  --gradinent: repeating-linear-gradient(to right, #d3d3d3 2px, transparent 6px),
+    repeating-linear-gradient(to bottom, #d3d3d3 2px, transparent 6px),
     repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
   --content-size: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem);
   --hover-color: #fff;
@@ -22,31 +20,27 @@
 }
 
 :root.theme-dark {
-  --main-font: "Inter", sans-serif;
-  --accent-font: "PressStart2P", sans-serif;
   --text-weight-size: 465;
   --title-weight-size: 785;
   --bgcolor: #000;
   --sparks-color: #ff0000;
   --hover-color: #00cc14;
   --accent-color: #00cc14;
-  --gradinent: repeating-linear-gradient(to right, #000 2px, transparent 4px),
-    repeating-linear-gradient(to bottom, #000 2px, transparent 4px),
+  --gradinent: repeating-linear-gradient(to right, #000 2px, transparent 6px),
+    repeating-linear-gradient(to bottom, #000 2px, transparent 6px),
     repeating-linear-gradient(to bottom, #007f0c, #004306);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font: "Inter", sans-serif;
-    --accent-font: "PressStart2P", sans-serif;
     --text-weight-size: 465;
     --title-weight-size: 785;
     --bgcolor: #000;
     --sparks-color: #ff0000;
     --hover-color: #00cc14;
     --accent-color: #00cc14;
-    --gradinent: repeating-linear-gradient(to right, #000 2px, transparent 4px),
-      repeating-linear-gradient(to bottom, #000 2px, transparent 4px),
+    --gradinent: repeating-linear-gradient(to right, #000 2px, transparent 8px),
+      repeating-linear-gradient(to bottom, #000 2px, transparent 8px),
       repeating-linear-gradient(to bottom, #007f0c, #004306);
   }
 }
