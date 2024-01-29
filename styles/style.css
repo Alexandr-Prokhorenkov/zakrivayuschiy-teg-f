@@ -68,12 +68,8 @@
 .theme-menu__list {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
-  margin-top: 20px;
-}
-
-.theme-menu__item:nth-child(2) {
-  margin-bottom: -3px;
+  row-gap: 8px;
+  margin-top: 21px;
 }
 
 .theme-menu__button {
@@ -197,79 +193,6 @@
   border: 2px solid var(--accent-color, #000);
   transition: 0.3s ease;
   height: 43px;
-}
-
-.like-icon {
-  width: 39px;
-  height: 36px;
-}
-
-.core {
-  fill: var(--accent-color, #000);
-  transform: scale(0);
-  transition: 0.3s linear;
-  transition-delay: 0.03s;
-  transform-origin: center;
-}
-
-.like-icon:hover .core {
-  transform: scale(1);
-  transition: 0.3s linear;
-}
-
-.main-body {
-  fill: var(--accent-color, #000);
-  transform: scale(0);
-  transition: 0.3s linear;
-  transform-origin: center;
-}
-
-.like-icon:hover .main-body {
-  transform: scale(1);
-  transition: 0.3s linear;
-  transition-delay: 0.05s;
-}
-
-.like-icon:active .core {
-  fill: var(--sparks-color, #ff0000);
-  transform: scale(1);
-  transition: 0.3s linear;
-}
-
-.like-icon:active .main-body {
-  fill: var(--sparks-color, #ff0000);
-  transform: scale(1);
-  transition: 0.3s linear;
-  transition-delay: 0.05s;
-}
-
-.like-icon.is-liked .core {
-  fill: var(--sparks-color, #ff0000);
-  transform: scale(1);
-  transition: 0.3s linear;
-}
-
-.like-icon.is-liked .main-body {
-  fill: var(--sparks-color, #ff0000);
-  transform: scale(1);
-  transition: 0.3s linear;
-  transition-delay: 0.05s;
-}
-
-.contour {
-  fill: var(--accent-color, #000);
-  transform: scale(1);
-  transition: 0.1s linear;
-}
-
-.like-icon.is-liked .contour {
-  fill: var(--sparks-color, #ff0000);
-  transform: scale(1);
-  transition: 0.3s linear;
-  transition-delay: 0.06s;
-}
-.sparks {
-  opacity: 0;
 }
 
 .card__like-button {
