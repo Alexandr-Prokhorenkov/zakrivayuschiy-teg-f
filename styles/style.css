@@ -281,13 +281,13 @@
 }
 
 .card__like-button:focus,
-.save-btn:focus,
+.save-button:focus,
 .dialog__button:focus {
   box-shadow: 2px 2px 0 var(--accent-color, #000);
 }
 
 .card__like-button::after,
-.save-btn::after,
+.save-button::after,
 .dialog__button::after {
   display: block;
   content: "";
@@ -301,7 +301,7 @@
 }
 
 .card__like-button:hover::after,
-.save-btn:hover::after,
+.save-button:hover::after,
 .dialog__button:hover::after {
   width: 100%;
   cursor: pointer;
